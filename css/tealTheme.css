@@ -1,0 +1,49 @@
+.services h2:after,
+.portfolio h2:after,
+.Blog h2:after,
+.contact h2:after,
+.testimonials h2:after,
+button.about-btn,
+.contact input:not([type='submit']):focus,
+.contact textarea:focus
+{
+    border-color: teal;
+}
+.services h2::before,
+.portfolio h2::before,
+.Blog h2:before,
+.contact h2:before,
+.testimonials h2:before,
+.bg-crimson,
+button.about-btn,
+#btn-top
+{
+    background-color: teal;
+}
+.text-crimson,
+.social-icons i:hover,
+.navbar .navbar-brand,
+.navbar-nav .active>.nav-link,
+.navbar-nav .nav-link:hover,
+.portfolio ul li.active,
+.portfolio-img .overlay i,
+.blog .blog-card h5 a:hover,
+.blog .blog-card a:hover,
+footer p > a:hover
+{
+    color: teal;
+}
+
+.testimonials .carousel .triangle
+{
+
+    border-top: 7rem solid teal;
+    border-left: 7rem solid teal;
+}
+.testimonials .carousel-indicators li
+{
+    border: 1px solid teal;
+}
+.testimonials .carousel-indicators li.active {
+    background: teal none repeat scroll 0 0;
+}
